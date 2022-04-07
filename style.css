@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding: 1px;
+    margin: 0;
+    line-height: 25px;
+}
+
+.headLine{
+    padding: 5px;
+    background-color: #fe40a0;
+}
+        /* NAVBAR SECTION */
+
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.navBar img{
+    cursor: pointer;
+}
+.left{
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    width:70%
+}
+.left a{
+    text-decoration: none;
+    color: #000;
+}
+.left a:hover{
+    color: #fe40a0;
+}
+.drop{
+    display: none;
+    position: absolute;
+    border: 1px solid #fff;
+    background: #fff;
+    padding-top: 30px;
+    width: 200px;
+    font-size: medium;
+    
+}
+.drop ul{
+    list-style-type:none;
+    margin-left: 0px;
+}
+.order{
+    position: relative;
+}
+
+.order:hover .drop{
+    display: block;
+}
+.promo:hover .drop{
+    display: block;
+}
+
+            /* Right Navbar */
+
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+.add p{
+   margin-left: 29px;
+   cursor: pointer;
+}
+.addImg1{
+    margin-left: 55px;
+    margin-top: 5px;
+}
+
+                    /* Banner Section */
+
+.banner{
+    display: flex;
+    align-items: center;
+    background-color: #61c6c0;
+    width: 100%;
+    height: 420px;
+}
+.take{
+    color: #0853a6;
+    font-size:50px;
+}
+.happy{
+    color: #fdf36d;
+}
+.banner h3{
+    color: #fff;
+    font-size: 25px;
+}
+.img1{
+    margin-top: 10px;
+}
+.img2{
+    margin-top:20%;
+    width: 100px;
+}
+
+                    /* MENU SECTION */
+.menu h1{
+    text-align: center;
+    margin-top: 50px;
+    color: #002680;
+    font-size: 40px;
+}
+.imagebar{
+    display: flex;
+    padding: 50px 20px;
+    margin-left: 4%;
+    max-width: 100%;
+}
+.imagebar p{
+    text-align: center;
+    color: #002680;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-right: 60px;
+}
+.imagebar img{
+    cursor: pointer;
+}
+.IMG2,.IMG1,.IMG3{
+    width: 100%;
+}
+.menuBtn{
+    text-align: center;
+}
+.button{
+    border: 1px solid #fe40a0;
+    color: #fff;
+    background-color: rgb(254, 64, 160);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+                /* BR SPECIAL */
+.specials h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(0, 38, 128);
+    font-size: 45px;
+    font-weight: 700;
+}
+.splImgCollection{
+    display: flex;
+    max-width: 100%;
+    margin-top: 4%;
+}
+.splImg1 img{
+    width: 80%;
+    margin-left: 37%;
+}
+.splImg2 img{
+    width: 80%;
+    margin-left: 27%;
+}
+
+        /* FLAVOURS */
+
+.flavourMain{
+    background-image: url('http://www.baskinrobbinsindia.com/newdesign/images/fl_bg.png');
+}
+
+.flavourMain h1{
+    text-align: center;
+    color: rgb(0, 38, 128);
+    font-size: 45px;
+    padding:100px 0px 50px;
+}
+.flavourImgCollection{
+    display: flex;
+    padding: 40px 0px 30px 70px;
+}
+
+.flavourBox{
+    box-shadow: 0 0 10px 0 rgb(19, 17, 17);
+    background: #fff;
+    width: 15%;
+    padding: 20px;
+    margin-left: 12%;
+    margin-top: -4%;
+    position: absolute;
+}
+.flavourBox p{
+    font-weight: bold;
+}
+
+                /* BR STORIES */
+
+.stories{
+    margin-top: 5%;
+}
+.stories h1{
+    text-align: center;
+    color: #fe40a0;
+}
+.storylines{
+    display: flex;
+    align-items: center;
+    margin:0px 20px;
+}
+
+.line{
+    border: 1px solid #fe40a0;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.line h4{
+    font-size: 10px;
+    font-weight: lighter;
+    color: rgb(27, 25, 25);
+}
+
+.logoBar{
+    margin-top: 50px;
+    background: #002680;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.logoBar img{
+    margin-top: 25px;
+}
+
+                    /* FOOTER */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.head{
+    margin-top: 25px;
+    font-size: 15px;
+    color: #df0170;
+}
+.subhead{ 
+    margin-top: 10px;
+}
+.subhead a{
+    text-decoration: none;
+    color: #515151;
+}
+::placeholder{
+    color:#df0170;
+}
+.mail hr{
+    border: 1px solid #df0170 ;
+}
+.mail{
+    margin-top: 15px;
+}
+.mail input[type]{
+    border: none;
+    font-size: 16px;
+}
+.lcons .fa {
+    width: 18px;
+    padding: 8px;
+    background: #df0170;
+    color: #fff;
+    text-align: center;
+    border-radius: 18px;
+    text-decoration: none
+}
+.footerLines{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.footerLines hr{
+    border: 1px solid #515151;
+    height: 0;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footerLines h4{
+    color: #515151;
+    font-size: 15px;
+}
+.year{
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+}
